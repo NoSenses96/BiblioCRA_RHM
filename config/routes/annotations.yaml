@@ -1,0 +1,23 @@
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
+
+index:
+    path: /Inicio/Principal
+    controller: App\Controller\InicioController::principal
+
+contactenos:
+    path: /Inicio/Contactenos
+    controller: App\Controller\InicioController::contactenos
+
+historia:
+    path: /Inicio/Historia
+    controller: App\Controller\InicioController::historia
+
+material:
+    path: /Inicio/Material
+    controller: App\Controller\InicioController::material
